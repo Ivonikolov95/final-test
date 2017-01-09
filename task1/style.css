@@ -43,13 +43,13 @@
 				background: lightblue;
 			}
 			
-#subtask5 li:hover:after {
-	content: " + IMAGINE THAT!";
-}
+			#subtask5 li:hover:after {
+			content: " + IMAGINE THAT!";
+			}
 
-#subtask4 li:hover {
-	opacity: 0.5;
-}
+			#subtask4 li:hover {
+			opacity: 0.5;
+			}
 
 /*		@media only screen and (min-width:600px) and (max-width: 999px) {}*/
 /*		@media only screen and (min-width:401px) and (max-width: 599px) {}*/
