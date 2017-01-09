@@ -1,41 +1,57 @@
-* {
-  box-sizing: border-box;
+			* {
+				box-sizing: border-box;
+			}
+			
+			body {
+				font-family: sans-serif;
+				line-height: 1.6em;
+			}
+			
+			.subtask {
+				margin: 20px 0;
+				border: 1px solid lightblue;
+				border-radius: 8px;
+				padding: 16px;
+			}
+			
+			ul {
+				padding: 0;
+				margin: 0;
+				font-family: sans-serif;
+				color: white;
+			}
+			
+			ul > li {
+				list-style-type: none;
+				padding: 20px;
+				float: left;
+				background-color: lightpink;
+				width: calc(100%/6);
+			}
+			
+			ul > li img {
+				margin: 0 auto;
+				display: block;
+			}
+			
+			.clearfix {
+				clear: both;
+			}
+			/* Вашият CSS от тук надолу */
+			
+			#subtask2 ul > li:nth-child(even) {
+				background: lightblue;
+			}
+			
+#subtask5 li:hover:after {
+	content: " + IMAGINE THAT!";
 }
 
-body {
-  font-family: sans-serif;
-  line-height: 1.6em;
+#subtask4 li:hover {
+	opacity: 0.5;
 }
 
-.subtask {
-  margin: 20px 0;
-  border: 1px solid lightblue;
-  border-radius: 8px;
-  padding: 16px;
-}
+/*		@media only screen and (min-width:600px) and (max-width: 999px) {}*/
+/*		@media only screen and (min-width:401px) and (max-width: 599px) {}*/
 
-ul {
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
-  color: white;
-}
 
-ul > li {
-  list-style-type: none;
-  padding: 20px;
-  float: left;
-  background-color: lightpink;
-  width: calc(100%/6);
-}
-
-ul > li img {
-  margin: 0 auto;
-  display: block;
-}
-
-.clearfix {
-  clear: both;
-}
-
-/* Вашият CSS от тук надолу */
